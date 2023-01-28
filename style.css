@@ -2,9 +2,8 @@ body{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
-.section-1{
+section{
     display: flex;
-    padding: auto;
 }
 .half-width{
     width: 50%;
@@ -30,10 +29,6 @@ h1{
     padding: 10px 45px;
     border-radius: 5px;
 }
-.section-2{
-    display: flex;
-    padding: auto;
-}
 .second-section{
     width: 50%;
 }
@@ -47,6 +42,27 @@ h1{
     color: #ffff;
     border-radius: 5px;
     font-weight: 700px;
-    background-image: linear-gradient(rgb(223, 179, 57), rgb(228, 91, 42));
+    background-image: linear-gradient(rgb(223, 57, 115), rgb(230, 51, 200));
     padding: 10px 40px;
+}
+.experience{
+    padding-top: 100px;
+    margin-left: 100px;
+}
+.section-deco{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 10px;
+}
+#full{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(68, 138, 223), rgb(45, 218, 237));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(237, 109, 239), rgb(222, 42, 138));
+    border-image-slice: 1;
 }
