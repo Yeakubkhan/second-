@@ -1,0 +1,52 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.section-1{
+    display: flex;
+    padding: auto;
+}
+.half-width{
+    width: 50%;
+    padding: 50px;
+    margin-left: 50px;
+}
+.half-width img{
+    height: 700px;
+    width: 550px;
+    padding-left: 120px;
+}
+h1{
+    font-size: 50px;
+} 
+.name-color{
+    color: rgb(236, 138, 19);
+}
+.link-button{
+    text-decoration: none;
+    color: #ffff;
+    background-image: linear-gradient(rgb(29, 129, 216), rgb(31, 191, 223));
+    font-weight: 700px;
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+.section-2{
+    display: flex;
+    padding: auto;
+}
+.second-section{
+    width: 50%;
+}
+.second-section img{
+    height: 550px;
+    width: 520px;
+    padding-left: 120px;
+}
+.fb-link-button{
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 5px;
+    font-weight: 700px;
+    background-image: linear-gradient(rgb(223, 179, 57), rgb(228, 91, 42));
+    padding: 10px 40px;
+}
